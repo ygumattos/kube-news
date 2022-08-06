@@ -43,7 +43,7 @@ kind: Deployment
 metadata:
   name: kubenews
 spec:
-  replicas: 2
+  replicas: 6
   selector:
     matchLabels:
       app: kubenews
